@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show_topic() {
+var x = document.getElementById("demo");
+x.style.fontSize = "30px";
+x.style.color = "purple";
+}
+
+function compute_y() {
+  x=parseFloat(window.prompt('Enter X'));
+  y=(x+1)*(x/2);
+  window.alert(y);
+
+}
+</script>
+</head>
+<body>
+<h1>Demo Page</h1>
+<p id="demo">Click button 1 to change the color and
+font style of this line.</p>
+<p>Click button 2 to compute Y.</p>
+<button onclick="show_topic()">Click button 1!</button>
+<button onclick="compute_y()">Click button 2!</button>
+</body>
+</html>
